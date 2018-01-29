@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SMB_Broadcaster</string>
+    <string name="permlab_broadcastingActivity">SMB_Broadcaster permission</string>
+    <string name="permdesc_broadcastingActivity">Permission to receive messages broadcasted by this app</string>
+</resources>

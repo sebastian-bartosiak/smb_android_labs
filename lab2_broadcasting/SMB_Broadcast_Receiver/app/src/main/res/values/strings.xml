@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SMB_Broadcast_Receiver</string>
+    <string name="title_activity_action_for_notification">ActionForNotificationActivity</string>
+</resources>

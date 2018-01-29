@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sebastian.smb.MainActivity">
+
+    <Button
+        android:id="@+id/goToList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lista"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="177dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="163dp"
+        android:onClick="goToListEvent"/>
+
+    <Button
+        android:id="@+id/goToSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/opcje"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="255dp"
+        android:layout_below="@+id/goToList"
+        android:layout_alignStart="@+id/goToList"
+        android:layout_marginTop="26dp"
+        android:onClick="goToSettingsEvent"/>
+</RelativeLayout>

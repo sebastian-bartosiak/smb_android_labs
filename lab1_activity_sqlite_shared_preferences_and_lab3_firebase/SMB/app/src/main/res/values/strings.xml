@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SMB</string>
+    <string name="lista">Lista</string>
+    <string name="opcje">Opcje</string>
+    <string name="rozmiar_czcionki">Rozmiar czcionki</string>
+    <string name="kolor">Kolor</string>
+    <string name="zastosuj">Zastosuj</string>
+</resources>

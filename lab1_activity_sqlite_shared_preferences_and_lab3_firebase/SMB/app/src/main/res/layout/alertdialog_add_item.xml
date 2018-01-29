@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:longClickable="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/et_cartitem"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Produkt" />
+
+    <EditText
+        android:id="@+id/et_cartitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="np Mąka"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/et_quantity"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Ilość" />
+
+    <EditText
+        android:id="@+id/et_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/et_cartitem"
+        android:ems="10"
+        android:hint="np 5"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/et_price"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Cena" />
+
+    <EditText
+        android:id="@+id/et_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/et_quantity"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cb_isselected"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView5"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Czy kupiony" />
+
+    <CheckBox
+        android:id="@+id/cb_isselected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_price"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
